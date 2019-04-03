@@ -23,5 +23,5 @@ mongoose
 
 app.use('/api/user',user);
 app.use('/api/auth',auth);
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8989;
 app.listen(port, () => console.log('server started at '+port));
